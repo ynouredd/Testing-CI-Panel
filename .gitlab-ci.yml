@@ -1,0 +1,2 @@
+include:
+  - component: $CI_SERVER_FQDN/mathworks/components/matlab/build@~latest
