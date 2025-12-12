@@ -3,8 +3,7 @@ on:
   workflow_dispatch
 
 jobs:
-  always-pass:
+  example-job:
     runs-on: self-hosted
     steps:
-      - name: Guaranteed pass step
-        run: echo "Test"
+      - run: echo "Hello"
