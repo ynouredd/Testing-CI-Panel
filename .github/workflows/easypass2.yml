@@ -1,0 +1,11 @@
+name: Easy Pass 2
+on:
+  workflow_dispatch
+
+jobs:
+  example-job:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello"
+      - name: Force Failure
+        run: exit 1
